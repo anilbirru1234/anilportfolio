@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body class="mat-app-background">
+  <mat-toolbar >
+    <label class="logo">Portfo<span class="title">lio</span></label>
+    <div class="flex"></div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars" ></i>
+    </label>
+    <div class="nav">
+     <a  routerLink="">Home</a>
+      <a  routerLink="/about">About</a>
+      <a  routerLink="/skills">Skills</a>
+      <a  routerLink="/services" >Services</a>
+      <a  routerLink="/contact" class="active">Contact</a>
+    </div>
+  </mat-toolbar>
+  <div class="contact">
+    <h1 style="color:palevioletred ;font-weight:bold ;font-size:35px; text-align: center;margin-top: 30px;">My Contact</h1>
+    <div class="container">
+      <div class="number">
+        <h1 style="font-weight: bold;">Contact me</h1>
+        <div class="head">
+          <img src="../../assets/images/user-solid.svg" class="img">
+          <div class="info">
+            <div class="head">Name</div>
+            <div class="sub_head">B.Anil</div>
+          </div>
+        </div><br>
+        <div class="head">
+          <img src="../../assets/images/location-dot-solid.svg" class="img">
+          <div class="info">
+            <div class="head">Adress</div>
+            <div class="sub_head">Hyderabad,Telangana</div>
+          </div>
+        </div><br>
+        <div class="head">
+          <img src="../../assets/images/envelope-solid.svg" class="img">
+          <div class="info">
+            <div class="head">Email</div>
+            <div class="sub_head">anilbirru2000@gmail.com</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="form">
+      <h1 style="font-weight:bold ;">Message me</h1>
+        <div class="fields">
+          <div class="field_name">
+            <input type="text" placeholder="Name">
+          </div>
+        <div class="field_name">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="field_name">
+            <input type="text" placeholder="Subject">
+          </div>
+          <div class="field_name">
+            <textarea cols="30" rows="5" placeholder="Describe project" ></textarea>
+          </div>
+          <div class="button">
+          <button type="submit">Send message</button>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>

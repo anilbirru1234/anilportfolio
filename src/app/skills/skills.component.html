@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body class="mat-app-background">
+  <mat-toolbar >
+    <label class="logo">Portfo<span class="title">lio</span></label>
+    <div class="flex"></div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars"  ></i>
+    </label>
+    <div class="nav">
+     <a  routerLink="">Home</a>
+      <a  routerLink="/about">About</a>
+      <a  routerLink="/skills" class="active">Skills</a>
+      <a  routerLink="/services">Services</a>
+      <a  routerLink="/contact">Contact</a>
+    </div>
+  </mat-toolbar><br>
+  <h1 class="heading">My Skills</h1>
+  <div class="myskills">
+  <div class="skills"><br>
+  <label  class="sub-heading">Programming languages</label><br><br><br>
+  <label class="sub-sub-heading">C Programming language</label>
+  <div class="clang">
+  <mat-progress-bar mode="determinate" value="80"   ></mat-progress-bar>
+  <span>90%</span>
+</div><br><br>
+  <label class="sub-sub-heading">C++ Programming language</label>
+  <div class="clang">
+  <mat-progress-bar mode="determinate" value="80"  color="accent"></mat-progress-bar>
+  <span>80%</span>
+</div><br><br>
+<label class="sub-sub-heading">Java Programming language</label>
+  <div class="clang">
+  <mat-progress-bar mode="determinate" value="75"  color="accent"></mat-progress-bar>
+  <span>90%</span>
+</div><br><br>
+<label class="sub-sub-heading">Python Programming language</label>
+  <div class="clang">
+  <mat-progress-bar mode="determinate" value="75" color="accent"></mat-progress-bar>
+  <span>85%</span>
+</div><br><br>
+</div>
+<div class="skill1"><br>
+  <label class="sub-heading">Web Technologies</label><br><br><br>
+  <label class="head">HTML</label>
+  <div class="clang">
+  <mat-progress-bar mode="determinate" value="60"  color="accent"></mat-progress-bar>
+  <span>95%</span>
+</div><br><br>
+<label class="head">CSS</label>
+<div class="clang">
+<mat-progress-bar mode="determinate" value="80" color="accent"></mat-progress-bar>
+<span>95%</span>
+</div><br><br>
+<label class="sub-sub-heading">Javascript</label>
+<div class="clang">
+<mat-progress-bar mode="determinate" value="80"  color="accent"></mat-progress-bar>
+<span>85%</span>
+</div><br><br>
+</div>
+</div>
+  </body>
+  </html>
+

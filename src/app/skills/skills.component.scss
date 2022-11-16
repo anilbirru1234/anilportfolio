@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.mat-app-background{
+
+height: 900px;
+}
+
+.flex{
+  flex: 1 1 auto;
+}
+ a{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 3px;
+  padding: 7px 13px;
+  margin: 0 10px;
+}
+
+label.logo{
+  font-size: 38px;
+  line-height: 80px;
+  font-weight: bold;
+  padding: 0 80px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+}
+span.title{
+  color: palevioletred;
+}
+a.active,a:hover{
+  background-color:palevioletred
+
+}
+mat-toolbar{
+ background-color: black;
+ height:77px
+}
+.myskills{
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+  font-weight: bold;
+  font-size: 35px;
+  color: palevioletred;
+  text-align: center;
+  margin-top: 25px;
+}
+.sub-heading{
+  font-size: 35px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.skills{
+  margin-left: 130px;
+}
+label{
+  font-size: 25px;
+}
+.clang {
+  display: flex;
+
+}
+.skill1{
+margin-right: 150px;
+}
+.myskills mat-progress-bar{
+  width: 550px;
+  margin-top: 20px;
+}
+.checkbtn{
+  color: white;
+  font-size: 30px;
+  margin-left: 0px;
+  float: right;
+  cursor: pointer;
+  margin-left: -25px;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media only screen and (max-width:858px){
+
+.skills .sub-heading{
+    font-size: 20px;
+    margin-left:-55px;
+  }
+  .skills .sub-sub-heading{
+    font-size: 20px;
+    margin-left: -70px;
+  }
+  .myskills{
+    display: contents;
+    margin-left: 50px;
+
+  }
+  .sub-sub-heading{
+    font-size: 20px;
+  }
+  .skill1{
+    margin-top: -15px;
+    margin-left: 130px;
+  }
+  .skill1 .sub-heading{
+    font-size: 18px;
+    margin-left: 28px;
+
+  }
+  .skill1 .head{
+    font-size: 20px;
+    margin-left: 25px;
+
+  }
+  .myskills mat-progress-bar {
+    width: 35px;
+    visibility: hidden;
+
+  }
+  mat-toolbar .nav{
+    background-color:palevioletred;
+    height:1000px;
+    position:absolute;
+    width: 100%;
+    top:70px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+   }
+   .nav a{
+    display: block;
+    margin: 50px;
+    margin-left: 180px;
+  }
+  a{
+    width: 80px;
+  }
+  a.active,a:hover{
+    background-color:white;
+    color: black;
+  }
+  .checkbtn{
+    display: block;
+  }
+  #check:checked ~ .nav{
+    left: 0;
+  }
+  }
+
+
