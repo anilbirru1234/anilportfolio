@@ -25,12 +25,22 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/images/app-store.svg",
+              "src/assets/Anu resume.pdf",
+              "src/assets/images/b78ec23d-d97a-4475-b9b9-c35e71029b83.jpg",
+              "src/assets/images/bars-solid.svg",
+              "src/assets/images/business-time-solid.svg",
+              "src/assets/images/code-solid.svg",
+              "src/assets/images/envelope-solid.svg",
+              "src/assets/images/location-dot-solid.svg",
+              "src/assets/images/sliders1-1.jpg",
+              "src/assets/images/user-solid.svg"
             ],
             "styles": [
               "src/styles.scss"
             ],
             "scripts": [
+
             ]
           },
           "configurations": {
